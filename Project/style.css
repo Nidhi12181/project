@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: #83211b;
+    color: #fff;
+}
+
+header h1 {
+    padding-top: 5px;
+}
+
+header p {
+
+    padding-top: 16px;
+    padding-left: 400px;
+}
+
+.Border {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 30px;
+    width: 1px;
+    background-color: grey;
+}
+
+.smIcons ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.smIcons ul li {
+    padding: 16px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(248, 236, 236);
+}
+
+.imgLogo {
+    margin: 20px;
+    height: 100px;
+}
+
+.navList ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navList ul li {
+    padding: 70px 30px 50px 30px;
+}
+
+.navList ul li a {
+    color: black;
+    /* font-weight: 600; */
+    text-decoration: none;
+}
+
+.bcImage {
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: #fff;
+    background-color: rgb(165, 160, 160);
+}
+
+.profile div img {
+    height: 300px;
+}
+
+.profile div h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.profile div p {
+    margin-top: 10px;
+    width: 400px;
+    line-height: 23px;
+}
+
+.profile2 h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.productCTG {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ImagePro {
+    height: 300px;
+}
+
+.productsItem {
+    background-color: rgb(248, 236, 236);
+}
+
+.productsItem ul {
+    padding: 20px;
+}
+
+.productsItem ul li {
+    cursor: pointer;
+    width: 310px;
+    list-style-type: none;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(247, 64, 9);
+}
+
+table {
+    margin-top: 30px;
+}
+
+span {
+    text-align: center;
+}
+
+/* ----------------------Accessories Page---------- */
+.productCTG1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0 25px 0;
+}
+
+.productCTG1 img {
+    height: 400px;
+    border: 1px solid grey;
+
+}
+
+.productCTG2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.productCTG2 img {
+    height: 400px;
+    border: 1px solid grey;
+
+}
+
+.accessItem {
+    text-align: center;
+    border: 1px solid grey;
+}
+
+/* -----------------------------------About Page----------------------------- */
+.aboutpara {
+    background-color: rgb(165, 160, 160);
+}
+
+.aboutpara p {
+    margin-left: 150px;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+}
+
+/* --------------------------Contact Page------------------ */
+.contactUs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.address {
+    width: 400px;
+    line-height: 30px;
+}
+
+.Info {
+    width: 500px;
+}
+
+.Info input {
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.Info textarea {
+
+    margin: 20px 20px 0 20px;
+}
+
+.bt-send {
+    margin-left: 20px;
+}
+
+main iframe {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* --------------------Responsive------------------------- */
+@media (max-width:700px) {
+    header {
+        display: flex;
+        height: 50px;
+        background-color: #83211b;
+        color: #fff;
+    }
+
+    header h1 {
+        color: blue;
+        line-height: 40px;
+    }
+
+    .bcImage {
+        width: 100%;
+    }
+
+    .navList ul {
+        display: block;
+
+        list-style-type: none;
+    }
+
+    .navList ul li {
+        color: black;
+        padding: 10px;
+    }
+
+    .imgLogo {
+        margin-top: 50px;
+    }
+
+    header p {
+        color: #fff;
+        padding-top: 12px;
+        padding-left: 50px;
+    }
+
+    .profile {
+        text-align: center;
+        display: block;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        color: #fff;
+        background-color: rgb(165, 160, 160);
+    }
+
+    .profile div p {
+        margin-left: 150px;
+    }
+
+    .productCTG {
+        display: block;
+    }
+
+    .ImagePro {
+        height: 350px;
+    }
+
+    .productCTG1 img {
+        height: 200px;
+        border: 1px solid grey;
+
+    }
+
+    .productCTG2 img {
+        height: 200px;
+        border: 1px solid grey;
+
+    }
+
+    .aboutpara p {
+        margin-left: 70px;
+        color: #fff;
+        width: 80%;
+        text-align: center;
+    }
+
+    .Info input {
+        width: 450px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+}
